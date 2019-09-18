@@ -13,10 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "2", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
+        Toast.makeText(this, "1321", Toast.LENGTH_SHORT).show();
     }
 }
